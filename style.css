@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;   
+    @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Quantico&family=Roboto+Mono:ital,wght@1,100&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+}
+body{
+    padding: 0;
+    margin: 0;
+   
+font-family: 'Quantico', sans-serif;
+/* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+    /* background-color: aqua; */
+}
+nav{
+    color: darkgreen;
+    height: auto;
+    width: 100%;
+    font-size: 2vw;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 18px;
+    margin-top: 30px;
+    
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px;
+    margin-left: 30px;
+    font-size: 15px;
+    justify-content: end;
+    /* justify-content: flex-end; */
+}
+nav ul li a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: rgb(8, 26, 42);
+}
+nav ul li :hover{
+    color: rgb(110, 59, 231);
+}
+nav ul h1{
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+}
+.hello{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.h{
+    color: darkcyan;
+    margin-top: 100px;
+    font-size: 2vw;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+.hello h2{
+    padding: 20px;
+    margin: 20px;
+    color: lightslategray;
+    font-size: 40px;
+}
+.hello img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.a{
+    color: aliceblue;
+    border-radius: 30px;
+    background-color: rgb(12, 12, 245);
+    margin-left: 150px;
+  height: 60px;
+  width: 170px;
+  font-size: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ cursor: pointer;
+
+}
+.b{
+background-color: rgb(12, 12, 245);
+color: aliceblue;
+border-radius: 30px;
+margin-left: 120px;
+height: 60px;
+width: 230px;
+font-size: 25px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+cursor: pointer;
+}
+.contract{
+    background-color: rgb(182, 225, 225);
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    margin-left:   800px ;
+    margin-top: 50px;
+    font-size: 30px;
+   border-radius: 25px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.contract form{
+    margin-top: 30px;
+    font-size: 26px;
+}
+.contract form div{
+padding: 15px;
+}
+.contract form div input{
+    height: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(68, 68, 247);
+    cursor: pointer;
+    color: rgb(247, 246, 244);
+
+}
+.blog{
+    margin-left: 50px;
+}
+.blog-b h2{
+    margin-top: 20px;
+}
+.blog-b button{
+    height: 23px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.intro{
+    margin-left: 50px;
+}
+.intro p{
+    margin-top: 10px;
+}
+.intro h2{
+    margin-top: 20px;
+}
+.skillcontainer{
+    margin-top: 20px;
+}
+.skill{
+    width: 150px;
+    height: 20px;
+    background-color: red;
+}
+.skillItem{
+font-size: 20px;
+}
+.hd{
+    font-size: 15px;
+    width: 160px;
+   
+}
+.td{
+    font-size: 15px;
+    width: 200px;
+}
+.tf{
+    font-size: 15px;
+    width: 140px;
+}
+.j{
+    font-size: 15px;
+    width: 100px;
+}
+/* @media (max-width: 1500px){
+    nav ul li{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 10px;
+        display:inline;
+    }
+    nav ul li a{
+        margin: auto;
+    }
+    .h{
+        font-size: small;
+
+    }.hello h2{
+        margin: auto;
+ font-size: small;
+    }
+    .nav ul>h1{
+        margin: auto;
+    }
+   .hello img{
+        display: none;
+    }
+    .a ,.b{
+        margin: auto;
+        margin-left: auto;
+        font-size: x-small;
+        height: auto;
+        width: auto;
+    }
+    .contract{
+    margin: auto;
+    font-size: 10px;
+    height: 440px;
+    width:  400px;
+    }
+} */
